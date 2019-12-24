@@ -53,6 +53,7 @@
 </body>
 
   <script src="/assets/build/js/bundle.js"></script>
+  
   <script type="module">
     const imgSize = [1250, 833];
 
@@ -90,6 +91,8 @@
 					}
 			`;
     {
+      
+
       const renderer = new ogl.Renderer({ dpr: 2 });
       const gl = renderer.gl;
       document.body.appendChild(gl.canvas);
