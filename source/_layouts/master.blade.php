@@ -15,6 +15,7 @@
     @include('_partials.cms.identity_widget')
 
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+    <script src="https://kit.fontawesome.com/c7eb0fecc0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -37,8 +38,8 @@
 
     <footer>
         <small>
-            This project is maintained by <a href="https://raniesantos.netlify.com">Ranie Santos</a>.
-            View the <a href="https://github.com/raniesantos/artisan-static">GitHub repo</a>.
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
         </small>
     </footer>
 
